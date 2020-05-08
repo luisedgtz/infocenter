@@ -145,3 +145,7 @@
     cursor: pointer;
 		text-decoration: underline;
 }
+
+.carouselContainer{
+  margin-top: 0%
+}

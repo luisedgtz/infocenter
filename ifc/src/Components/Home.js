@@ -4,8 +4,9 @@ import Carousel from './Carousel'
 
 export default (props)=>{
     return(
-        <div>
+        <div className="carouselContainer">
             <Carousel></Carousel>
+            
         </div>
     )
 }
