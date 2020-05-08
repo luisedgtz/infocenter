@@ -30,7 +30,7 @@ export default (props)=>{
                 <img src={IG} height="80" alt=""></img></a></li>
             <li><a target="_blank" href="http://www.smarthotel.com.mx/">
                 <img src={SH} height="80" alt=""></img></a></li>
-            <li><a href="/">
+            <li><a href="/ifconline">
                 <img src={IFCO} height="80" alt=""></img></a></li>
         </ul>
 
