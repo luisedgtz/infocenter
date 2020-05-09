@@ -9,6 +9,7 @@ import {
 import Header from './Components/Header';
 import Home from './Components/Home';
 import ifcoScripts from './scripts/ifcoScripts';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           </div>
         </Switch>
       </Router>
+      <Footer></Footer>
     </div>    
   );
 }

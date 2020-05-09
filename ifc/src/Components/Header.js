@@ -10,7 +10,7 @@ export default (props)=>{
     return(
     <div className="NavContainer">
         <div className="logoContainer">
-        <a classname="logo" href="/" ><img style={{margin: 20}} src={Logo} height="50" alt=""></img></a>
+        <a classname="logo" href="/" ><img style={{margin: 20}} src={Logo} height="60" alt=""></img></a>
         </div>
 
         <div className="NavTagsContainer">

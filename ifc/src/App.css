@@ -1,5 +1,6 @@
 .App {
   background-color: #ffffff;
+  height: 100%;
 }
 
 .NavContainer{
@@ -19,22 +20,28 @@
     list-style-type: none;
     margin: 0;
     padding: 0; 
-    display: flex; 
+    display: flex;
+    height: 30px;
 }
 
 .NavTags li{ 
-  border-right: 2px solid #009FE2;
+  border-right: 2px solid #3495CA;
+  height: 30px;
 }
 
 .NavTags a{
   text-decoration: none;
-  display: block;
-  padding: 1em;
+  display: flex;
   color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2px;
+  height: 30px;
+  font-size: 20px;
 }
 
 .NavTags a:hover {
-  color: #009FE2;
+  color: #3495CA;
 }
 
 .logoContainer{
@@ -49,8 +56,8 @@
 }
 
 .LoginContainer{
-  height: 90vh;
   display: flex;
+  height: 77vh;
 }
 
 .form-login {
@@ -58,14 +65,14 @@
   width: 300px;
   height: 350px;
 	background-color: rgb(255, 255, 255);
-    border-radius: 20px;
+  border-radius: 20px;
   padding: 0px;
   margin: auto;
   box-shadow: 0px 0px 27px #03030336;
 }
 
 .LoginTitle{
-  background-color: #009FE2;
+  background-color: #3495CA;
   border-radius: 20px 20px 0px 0px;
   height: 20%;
   color: #ffffff;
@@ -118,7 +125,7 @@
   cursor: pointer;
   border-radius: 5px;
   border: 0px;
-  background-color: #009FE2;
+  background-color: #3495CA;
   color: #ffffff;
   width: 50%;
   height: 30px;
@@ -141,11 +148,101 @@
 }
 
 #resetUserAndPass:hover {
-    color: #2273c7;
+    color: #3495CA;
     cursor: pointer;
 		text-decoration: underline;
 }
 
 .carouselContainer{
   margin-top: 0%
+}
+
+.FooterContainer{
+  background-color: #3495CA;
+  height: 90px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.FooterContainer h4{
+  width: 362px;
+  font-weight: lighter;
+  align-self: center;
+}
+
+.FooterContainer img, .FooterContainer a{
+  align-self: center;
+}
+
+.Aviso{
+  margin-top: 20px;
+  text-align: center;
+  color: #808080;
+}
+
+.Aviso a{
+  color:#3495CA;
+}
+
+.Contact{
+  justify-content: center;
+  width: 362px;
+  display: flex;
+  align-self: center;
+}
+
+.cardContainer{
+  height: 12%;
+  width: 20%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 27px #03030336;
+  border-bottom:solid #3495CA 10px;
+}
+
+.imgCard{
+  width: 100%;
+  height: 10%;
+}
+
+.infoContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text h2{
+  margin-top: 5px;
+}
+
+.text{
+  padding-left: 10px;
+}
+
+.cardContainer .text a{
+  float: right;
+}
+
+.price{
+  display: flex;
+}
+
+.price h6{
+  align-self: center 
+}
+
+.price h1{
+  padding-left: 5px;
+  color: #3495CA;
+  align-self: flex-start;
+}
+
+.mas{
+  align-self: center;
+}
+
+.cards{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: space-around;
 }
