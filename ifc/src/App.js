@@ -10,6 +10,7 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import ifcoScripts from './scripts/ifcoScripts';
 import Footer from './Components/Footer';
+import AboutUs from './Components/AboutUs';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         <Switch>
           <div>
             <Route exact path="/" component={Home}></Route>
-            <Route excat path="/nosotros" component={Home}></Route>
+            <Route excat path="/nosotros" component={AboutUs}></Route>
             <Route excat path="/destinos" component={Home}></Route>
             <Route excat path="/agencias" component={Home}></Route>
             <Route excat path="/contacto" component={Home}></Route>

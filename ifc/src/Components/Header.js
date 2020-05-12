@@ -15,7 +15,7 @@ export default (props)=>{
 
         <div className="NavTagsContainer">
         <ul className="NavTags">
-            <li><a href="/">Nosotros</a></li>
+            <li><a href="/nosotros">Nosotros</a></li>
             <li><a href="/">Destinos</a></li>
             <li><a href="/">Registro Agencias</a></li>
             <li><a href="/">Contacto</a></li>
