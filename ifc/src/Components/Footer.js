@@ -6,7 +6,7 @@ import WAIcon from './Assets/whatsapp.svg'
 
 export default (props)=>{
     return(
-        <div>
+        <footer id="footer">
         <div className="FooterContainer">
             <h4>Carlos Salazar 2420. Monterrey, N.L.</h4>
 
@@ -34,7 +34,6 @@ export default (props)=>{
         href="https://1712964e-c949-4ffa-a2ce-8b6857fe9999.filesusr.com/ugd/a67d74_bfdaa4b66192418eb5c420ba24f4a8eb.pdf"
         > Aviso de privacidad</a>
         </p>
-
-        </div>
+        </footer>
     )
 }

@@ -4,21 +4,24 @@ import FB from './Assets/FB.svg'
 import IG from './Assets/IG.svg'
 import SH from './Assets/SH.svg'
 import IFCO from './Assets/IFConline.svg'
+import {NavLink} from "react-router-dom";
+  
 
 export default (props)=>{
-    
+
     return(
     <div className="NavContainer">
         <div className="logoContainer">
-        <a classname="logo" href="/" ><img style={{margin: 20}} src={Logo} height="60" alt=""></img></a>
+        <a className="logo" href="/" ><img style={{margin: 20}} src={Logo} height="60" alt=""></img></a>
         </div>
 
         <div className="NavTagsContainer">
-        <ul className="NavTags">
-            <li><a href="/nosotros">Nosotros</a></li>
-            <li><a href="/">Destinos</a></li>
-            <li><a href="/">Registro Agencias</a></li>
-            <li><a href="/">Contacto</a></li>
+        <ul id="NavTags" className="NavTags">
+            <li class="tag"><NavLink activeClassName="activeTag" activeStyle={{color: "#3495CA"}} exact to="/">Inicio</NavLink></li>
+            <li class="tag"><NavLink activeClassName="activeTag" activeStyle={{color: "#3495CA"}} exact to="/nosotros">Nosotros</NavLink></li>
+            <li class="tag"><NavLink activeClassName="activeTag" activeStyle={{color: "#3495CA"}} exact to="/destinos">Destinos</NavLink></li>
+            <li class="tag"><NavLink activeClassName="activeTag" activeStyle={{color: "#3495CA"}} exact to="/agencias">Registro Agencias</NavLink></li>
+            <li class="tag"><NavLink activeClassName="activeTag" activeStyle={{color: "#3495CA"}} exact to="/contacto">Contacto</NavLink></li>
         </ul>
         </div>
 
@@ -39,5 +42,4 @@ export default (props)=>{
         
     </div>
     )
-
 }

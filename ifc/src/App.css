@@ -1,6 +1,18 @@
 .App {
   background-color: #ffffff;
-  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.PageWrap{
+  padding-bottom: 2rem;
+}
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
 }
 
 .NavContainer{
@@ -21,27 +33,27 @@
     margin: 0;
     padding: 0; 
     display: flex;
-    height: 30px;
 }
 
-.NavTags li{ 
-  border-right: 2px solid #3495CA;
-  height: 30px;
-}
-
-.NavTags a{
+.NavTags li a{
   text-decoration: none;
   display: flex;
-  color: black;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 2px;
-  height: 30px;
-  font-size: 20px;
+  color: rgb(26, 26, 26);
+  padding: 1em;
+  font-size: 1.2em;
+  height: 100%;
 }
 
-.NavTags a:hover {
+.activeTag{
   color: #3495CA;
+  border-bottom: solid 2px #3495CA;
+  font-weight: 500;
+}
+
+.NavTags li a:hover {
+  color: #3495CA;
+  font-weight: 500;
+  border-bottom: solid 2px #3495CA;
 }
 
 .logoContainer{
@@ -57,7 +69,6 @@
 
 .LoginContainer{
   display: flex;
-  height: 77vh;
 }
 
 .form-login {
@@ -159,14 +170,14 @@
 
 .FooterContainer{
   background-color: #3495CA;
-  height: 90px;
+  height: 250%;
   color: #ffffff;
   display: flex;
   justify-content: space-around;
 }
 
 .FooterContainer h4{
-  width: 362px;
+  width: 33%;
   font-weight: lighter;
   align-self: center;
 }
@@ -187,7 +198,7 @@
 
 .Contact{
   justify-content: center;
-  width: 362px;
+  width: 33%px;
   display: flex;
   align-self: center;
 }
@@ -249,7 +260,6 @@
 
 .aboutUs{
   display: flex;
-  margin: auto;
 }
 
 .illustrationAbout{
@@ -259,4 +269,15 @@
 .aboutUsText{
   margin-top: 6.2%;
   margin-right: 12.4%;
+}
+
+.aboutUsText h1{
+  font-size: 300%;
+  color: #3495CA;
+}
+
+.aboutUsText p{
+  font-size: 120%;
+  margin-top: 2%;
+  text-align: justify;
 }

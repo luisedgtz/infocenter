@@ -4,7 +4,7 @@ import ill1 from './Assets/abousUsImg.svg'
 export default (props)=>{
     return(
         <div className="aboutUs">
-            <img className="illustrationAbout" src={ill1} height="600"/>
+            <img className="illustrationAbout" src={ill1} height="500"/>
 
             <div className="aboutUsText">
                 <h1>¿Quiénes somos?</h1>
