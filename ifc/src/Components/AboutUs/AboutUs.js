@@ -1,5 +1,7 @@
 import React from 'react'
-import ill1 from './Assets/abousUsImg.svg'
+import ill1 from '../Assets/abousUsImg.svg'
+
+import style from './style.css'
 
 export default (props)=>{
     return(

@@ -1,18 +1,17 @@
 import React from 'react';
 
+import style from "./style.css"
+
 export default (props)=>{
 return(
 <div className="FormContainer">
 <div className="form-container">
 
 <form method="post" action="">
-
     <div className="FormTitle">
         <h4>Registro Agencia</h4>
     </div>
-
     <div className="formInputs">
-
     <div className="inputFormDiv">
         <div className="divInputs">
             <label>Nombre de la empresa:</label><br/>
@@ -23,7 +22,6 @@ return(
     </div>
 
     <div className="inputFormDiv">
-        
         <div className="divInputs">
             <label>Página Web:</label><br/>
             <input className="mediumInput" placeholder="Página Web"></input><br/>
@@ -38,7 +36,6 @@ return(
             <label>Teléfono 1:</label><br/>
             <input className="mediumInput" placeholder="Teléfono 1"></input><br/>
         </div>
-
         <div className="divInputs">
             <label>RFC:</label><br/>
             <input className="mediumInput" placeholder="RFC"></input><br/>
@@ -60,16 +57,12 @@ return(
             <input className="mediumInput" placeholder="País"></input><br/>
             <label>Teléfono 2:</label><br/>
             <input className="mediumInput" placeholder="Teléfono 2"></input><br/>
-
         </div>
     </div>
-
         <div class="submit-input" align="center">
             <input id="submit-button" type="submit" value="ENVIAR" />
         </div>
-
     </div>
-
 </form>
 
 </div>

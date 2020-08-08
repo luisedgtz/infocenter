@@ -1,5 +1,5 @@
 import React from 'react';
-import Agency from '../Components/Agency'
+import Agency from '../Components/Agency/Agency'
 
 
 class agencyScript extends React.Component{

@@ -1,0 +1,41 @@
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+.FooterContainer{
+    background-color: #3495CA;
+    height: 250%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterContainer h4{
+    width: 33%;
+    font-weight: lighter;
+    align-self: center;
+}
+
+.Contact{
+    justify-content: center;
+    width: 33%px;
+    display: flex;
+    align-self: center;
+}
+
+.FooterContainer img, .FooterContainer a{
+    align-self: center;
+  }
+  
+.Aviso{
+    margin-top: 20px;
+    text-align: center;
+    color: #808080;
+}
+  
+.Aviso a{
+    color:#3495CA;
+}

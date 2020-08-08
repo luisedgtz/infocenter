@@ -1,0 +1,51 @@
+.NavContainer{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+  }
+
+  .logoContainer{
+    margin-left: 2em;
+  }
+  
+  .NavTags{
+      list-style-type: none;
+      margin: 0;
+      padding: 0; 
+      display: flex;
+  }
+  
+  .NavTags li a{
+    text-decoration: none;
+    display: flex;
+    color: rgb(26, 26, 26);
+    padding: 1em;
+    font-size: 1.2em;
+    height: 100%;
+  }
+  
+  .activeTag{
+    color: #3495CA;
+    border-bottom: solid 2px #3495CA;
+    font-weight: 500;
+  }
+  
+  .NavTags li a:hover {
+    color: #3495CA;
+    font-weight: 500;
+    border-bottom: solid 2px #3495CA;
+  }
+
+  .IconTags{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+  }

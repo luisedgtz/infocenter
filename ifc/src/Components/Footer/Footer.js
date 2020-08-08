@@ -1,8 +1,9 @@
 import React from 'react'
 
-import ConIcon from './Assets/conmuter.svg'
-import WAIcon from './Assets/whatsapp.svg'
+import ConIcon from '../Assets/conmuter.svg'
+import WAIcon from '../Assets/whatsapp.svg'
 
+import style from './style.css'
 
 export default (props)=>{
     return(

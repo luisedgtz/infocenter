@@ -1,6 +1,7 @@
 import React from 'react'
-import mas from './Assets/mas.svg'
+import mas from '../Assets/mas.svg'
 
+import style from './style.css'
 
 export default (props)=>{
     return(

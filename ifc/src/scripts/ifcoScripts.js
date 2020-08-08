@@ -1,5 +1,5 @@
 import React from 'react';
-import IFConline from '../Components/IFConline';
+import IFConline from '../Components/IFConline/IFConline';
 
 
 

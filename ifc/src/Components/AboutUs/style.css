@@ -1,0 +1,25 @@
+.aboutUs{
+    display: flex;
+  }
+  
+  .illustrationAbout{
+    margin-left: 10%;
+    margin-top: 6.2%;
+  }
+  
+  .aboutUsText{
+    margin-top: 6.2%;
+    margin-left: 2%;
+    margin-right: 12.4%;
+  }
+  
+  .aboutUsText h1{
+    font-size: 300%;
+    color: #3495CA;
+  }
+  
+  .aboutUsText p{
+    font-size: 120%;
+    margin-top: 2%;
+    text-align: justify;
+  }

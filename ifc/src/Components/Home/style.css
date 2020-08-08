@@ -1,0 +1,10 @@
+.carouselContainer{
+    margin-top: 0%
+}
+
+.cards{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}

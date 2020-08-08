@@ -6,26 +6,20 @@ Switch,
 Route,
 } from "react-router-dom";
 
-import Home from './Components/Home';
+import Home from './Components/Home/Home.js';
 import ifcoScripts from './scripts/ifcoScripts';
-import Footer from './Components/Footer';
-import AboutUs from './Components/AboutUs';
-import Header from './Components/Header';
+import Footer from './Components/Footer/Footer';
+import AboutUs from './Components/AboutUs/AboutUs';
+import Header from './Components/Header/Header';
 import agencyScript from './scripts/agencyScript'
 
 
 function App() {
 return (
   <div className="App">
-
-    
-
     <div className="PageWrap">
-
     <Router>
-      
     <Header></Header>
-
       <Switch>
         <div>
           <Route exact path="/" component={Home}></Route>

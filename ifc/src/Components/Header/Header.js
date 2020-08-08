@@ -1,10 +1,12 @@
 import React from 'react'
-import Logo from './Assets/LOGO.svg'
-import FB from './Assets/FB.svg'
-import IG from './Assets/IG.svg'
-import SH from './Assets/SH.svg'
-import IFCO from './Assets/IFConline.svg'
+import Logo from '../Assets/LOGO.svg'
+import FB from '../Assets/FB.svg'
+import IG from '../Assets/IG.svg'
+import SH from '../Assets/SH.svg'
+import IFCO from '../Assets/IFConline.svg'
 import {NavLink} from "react-router-dom";
+
+import style from "./style.css"
   
 
 export default (props)=>{

@@ -1,0 +1,97 @@
+.LoginContainer{
+    display: flex;
+    height: 78vh;
+  }
+  
+  .form-login {
+      font-family: Verdana;
+    width: 300px;
+    height: 350px;
+      background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0px;
+    margin: auto;
+    box-shadow: 0px 0px 27px #03030336;
+  }
+  
+  .LoginTitle{
+    background-color: #3495CA;
+    border-radius: 20px 20px 0px 0px;
+    height: 20%;
+    color: #ffffff;
+    
+  }
+  
+  .LoginTitle h4{
+    font-family: Arial;
+    font-weight: bold;
+    margin: 3%;
+  }
+  
+  .form-login div label{
+      width: 100px;
+  }
+  
+  .form-login div{
+      padding: 3px;
+  }
+
+  .form-login label{
+	padding: 3px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.form-login input{
+	font-size: 13px;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+  border: 0px;
+  margin: auto;
+  width: 90%;
+  background-color: rgba(211, 211, 211, 0.144);
+  border-radius: 5px;
+  height: 50px;
+}
+
+.form-login input:focus{
+  border: 0px; 
+}
+
+.inputDiv{
+  margin-top: 15%;
+}
+
+#submit-button {
+    margin-top: 2%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #3495CA;
+    color: #ffffff;
+    width: 50%;
+    height: 30px;
+  }
+  
+  #invalid-user, #invalid-domain {
+    font-size: smaller;
+      display:none;
+      color: red
+  }
+  
+  #change-div a label{
+      width: 100%;
+      margin-bottom: 1px;
+  }
+  
+  #resetUserAndPass:link, #resetUserAndPass:visited {
+      color: rgb(43, 43, 43);
+      text-decoration: none;
+  }
+  
+  #resetUserAndPass:hover {
+      color: #3495CA;
+      cursor: pointer;
+          text-decoration: underline;
+  }
