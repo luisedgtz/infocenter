@@ -1,7 +1,14 @@
+@import "./css/colors.css";
+@import "./css/shadows.css";
+@import "./css/sizing.css";
+@import "./css/spacing.css";
+
 .App {
-  background-color: #ffffff;
-  min-height: 90vh;
+  background-color: var(--white);
+  height: 100%;
+  width: 100%;
   position: relative;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .PageWrap{

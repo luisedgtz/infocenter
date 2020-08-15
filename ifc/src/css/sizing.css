@@ -1,0 +1,7 @@
+/* SCREEN SIZES */
+:root {
+    --mobile: 425px;
+    --tablet: 768px;
+    --s-tablet: 1024px;
+    --l-screen: 1440px;
+}
