@@ -18,11 +18,6 @@ export default (props)=>{
                     <h1>{props.precio}</h1>
                 </div>             
                 </div>
-
-                <div className="mas">
-                <a><img src={mas} height="40"></img></a>   
-                </div>
-
                 </div>               
         </div>
     )

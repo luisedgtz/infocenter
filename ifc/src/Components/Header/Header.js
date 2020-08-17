@@ -14,7 +14,6 @@ import {NavLink} from "react-router-dom";
 import style from "./style.css"
 
 export function Header(){
-    const [navShow, showNav] = useState(false);
     const refNav = useRef(null);
 
     const triggerNav =()=>{
