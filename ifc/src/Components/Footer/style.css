@@ -7,7 +7,7 @@
 
 .FooterContainer{
     background-color: #3495CA;
-    height: 250%;
+    height: fit-content;
     color: #ffffff;
     display: flex;
     justify-content: space-around;
@@ -21,7 +21,7 @@
 
 .Contact{
     justify-content: center;
-    width: 33%px;
+    width: 33%;
     display: flex;
     align-self: center;
 }
@@ -38,4 +38,41 @@
   
 .Aviso a{
     color:#3495CA;
+}
+
+@media (max-width: 425px) {
+    .FooterContainer{
+        display: block;
+    }
+
+    .FooterContainer h4{
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .Contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Contact h5{
+        font-size: 1em;        
+    }
+
+    .Contact h3{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+}
+
+@media only screen and (min-width: 1024px){
+}
+
+@media only screen and (min-width: 1440px){
 }

@@ -51,7 +51,7 @@ export function Header(){
         </div>
 
         <div className="menuTrigger">
-            <button onClick={()=>triggerNav()}><img src={menu} alt=""></img></button>
+            <button onBlur={()=>triggerNav()} onClick={()=>triggerNav()}><img src={menu} alt=""></img></button>
         </div>
 
         <div className="mobile-nav" ref={refNav}>

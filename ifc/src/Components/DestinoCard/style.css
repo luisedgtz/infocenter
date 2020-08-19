@@ -40,7 +40,7 @@
 }
   
 .price h1{
-    padding-left: 5px;
+    margin-left: 5px;
     color: #3495CA;
     align-self: flex-start;
 }
