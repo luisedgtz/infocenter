@@ -14,10 +14,13 @@ import {NavLink} from "react-router-dom";
 import style from "./style.css"
 
 export function Header(){
+    const [showNav, setNav] = useState(false);
+    const [name, setClass] = useState("mobile-nav");
     const refNav = useRef(null);
 
     const triggerNav =()=>{
-        refNav.current.classList.toggle('open');
+        var cn = (name === "mobile-nav") ? "mobile-nav open" : "mobile-nav";
+        setClass(cn);
     }
     
     return(
@@ -51,10 +54,10 @@ export function Header(){
         </div>
 
         <div className="menuTrigger">
-            <button onBlur={()=>triggerNav()} onClick={()=>triggerNav()}><img src={menu} alt=""></img></button>
+            <button onBlur={()=>setClass("mobile-nav")} onClick={()=>triggerNav()}><img src={menu} alt=""></img></button>
         </div>
 
-        <div className="mobile-nav" ref={refNav}>
+        <div className={name} ref={refNav}>
             <ul className="mobile-tags">
                 <li><NavLink exact to="/">Inicio</NavLink></li>
                 <li><NavLink exact to="/nosotros">Nosotros</NavLink></li>

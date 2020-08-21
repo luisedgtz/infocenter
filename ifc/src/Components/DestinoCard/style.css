@@ -48,7 +48,7 @@
 @media (max-width: 425px) {
     .cardContainer {
         width: 45%;
-        height: 250px;
+        height: fit-content;
     }
 
     .text{
@@ -73,6 +73,30 @@
 }
 
 @media (min-width: 426px) and (max-width: 768px){
+    .cardContainer {
+        width: 30%;
+        height: fit-content;
+    }
+
+    .text{
+    }
+
+    .text h2{
+        font-size: 1.5em;
+        height: 2em;
+    }
+
+    .price{
+        margin-top: var(--small-spacing);
+    }
+
+    .price h6{
+        font-size: 1em;
+    }
+
+    .price h1{
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){

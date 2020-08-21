@@ -28,6 +28,7 @@
 
 .FooterContainer img, .FooterContainer a{
     align-self: center;
+    height: 50px;
   }
   
 .Aviso{
@@ -63,9 +64,36 @@
     .Contact h3{
         font-size: 1em;
     }
+
+    .FooterContainer img{
+        height: 40px;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 768px){
+
+    .FooterContainer h4{
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .Contact{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Contact h5{
+        font-size: 1em;        
+    }
+
+    .Contact h3{
+        font-size: 1em;
+    }
+
+    .FooterContainer img{
+        height: 40px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
