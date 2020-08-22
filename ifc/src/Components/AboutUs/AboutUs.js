@@ -6,7 +6,7 @@ import style from './style.css'
 export default (props)=>{
     return(
         <div className="aboutUs">
-            <img className="illustrationAbout" src={ill1} height="500"/>
+            <img className="illustrationAbout" src={ill1}/>
 
             <div className="aboutUsText">
                 <h1>¿Quiénes somos?</h1>

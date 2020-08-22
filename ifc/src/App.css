@@ -5,12 +5,12 @@
 
 .App {
   background-color: var(--white);
-  height: 100%;
+  min-height: 89%;
   width: 100%;
   position: relative;
   font-family: 'Quicksand', sans-serif;
 }
 
 .PageWrap{
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }

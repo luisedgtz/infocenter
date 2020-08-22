@@ -1,25 +1,85 @@
+@import '../../App.css';
+
 .aboutUs{
     display: flex;
+    height: fit-content;
+    padding: var(--medium-spacing);
   }
   
   .illustrationAbout{
-    margin-left: 10%;
-    margin-top: 6.2%;
+    height: 500px;
+    align-self: center;
   }
   
   .aboutUsText{
-    margin-top: 6.2%;
-    margin-left: 2%;
-    margin-right: 12.4%;
+    align-self: center;
   }
   
   .aboutUsText h1{
-    font-size: 300%;
     color: #3495CA;
+    font-size: 3em;
+
   }
   
   .aboutUsText p{
-    font-size: 120%;
-    margin-top: 2%;
-    text-align: justify;
+    font-size: 1.3em;
+  }
+
+  @media (max-width: 425px) {
+    .aboutUs{
+      display: block;
+      text-align: center;
+      padding-bottom: var(--small-spacing);
+    }
+
+    .illustrationAbout{
+      height: 200px;
+      padding: var(--small-spacing);
+    }
+
+    .aboutUsText{
+      padding: var(--small-spacing);
+    }
+
+    .aboutUsText h1{
+    }
+
+    .aboutUsText p{
+      text-align: justify;
+    }
+  }
+  
+  @media (min-width: 426px) and (max-width: 768px){
+    .aboutUs{
+      display: block;
+      text-align: center;
+      padding-bottom: var(--small-spacing);
+    }
+
+    .illustrationAbout{
+      height: 300px;
+      padding: var(--small-spacing);
+    }
+
+    .aboutUsText{
+      padding: var(--small-spacing);
+    }
+
+    .aboutUsText h1{
+      font-size: 3em;
+    }
+
+    .aboutUsText p{
+      font-size: 1.2em;
+      text-align: justify;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+  }
+  
+  @media only screen and (min-width: 1024px){
+  }
+  
+  @media only screen and (min-width: 1440px){
   }
