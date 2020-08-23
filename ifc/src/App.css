@@ -14,3 +14,7 @@
 .PageWrap{
   padding-bottom: 2.5rem;
 }
+
+.bold {
+  font-weight: 600;
+}
