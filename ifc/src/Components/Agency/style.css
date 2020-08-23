@@ -1,14 +1,12 @@
 @import '../../App.css';
   
 .form-container{
-    font-family: Verdana;
     width: 90%;
     height: 70%;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 0px;
     box-shadow: 0px 0px 27px #03030336;
-    font-family: 'Quicksand', sans-serif;
     margin: var(--medium-spacing) auto var(--small-spacing) auto;
 }
 

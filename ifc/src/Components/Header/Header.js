@@ -14,7 +14,6 @@ import {NavLink} from "react-router-dom";
 import style from "./style.css"
 
 export function Header(){
-    const [showNav, setNav] = useState(false);
     const [name, setClass] = useState("mobile-nav");
     const refNav = useRef(null);
 

@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Header from './Components/Header/Header';
 import agencyScript from './scripts/agencyScript'
+import Contact from './Components/Contact/Contact'
 
 
 function App() {
@@ -26,7 +27,7 @@ return (
           <Route excat path="/nosotros" component={AboutUs}></Route>
           <Route excat path="/destinos" component={Home}></Route>
           <Route excat path="/agencias" component={agencyScript}></Route>
-          <Route excat path="/contacto" component={Home}></Route>
+          <Route excat path="/contacto" component={Contact}></Route>
           <Route excat path="/ifconline" component={ifcoScripts}></Route>
         </div>
       </Switch>
