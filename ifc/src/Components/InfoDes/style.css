@@ -1,0 +1,21 @@
+.infoDes-container{
+    text-align: center;
+    margin-top: var(--medium-spacing);
+}
+
+.promo-container{
+    margin-top: var(--medium-spacing);
+    box-shadow: 0px 0px 27px #03030336;
+    height: 600px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.promo {
+    display: inline-block;
+    border: 1px solid black;
+    width: 500px;
+    height: 100%;
+    margin-right: var(--small-spacing);
+    margin-left: var(--small-spacing);
+}

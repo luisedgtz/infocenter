@@ -6,6 +6,7 @@ import style from './style.css'
 export default (props)=>{
     return(
         <div className="cardContainer">
+            <a>
                 <img className="imgCard" src={props.cardImg}/>
                 
                 <div className="infoContainer">
@@ -18,7 +19,8 @@ export default (props)=>{
                     <h1>{props.precio}</h1>
                 </div>             
                 </div>
-                </div>               
+                </div> 
+            </a>
         </div>
     )
 }
