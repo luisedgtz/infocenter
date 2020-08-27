@@ -2,7 +2,7 @@
     box-shadow: 0px 0px 27px #03030336;
     width: 50%;
     height: 70%;
-    margin: var(--large-spacing) auto var(--medium-spacing) auto;
+    margin: var(--medium-spacing) auto var(--medium-spacing) auto;
     border-radius: 20px;
     padding: 0px;
 }

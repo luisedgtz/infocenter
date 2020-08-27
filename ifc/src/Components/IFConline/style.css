@@ -1,13 +1,15 @@
 .LoginContainer{
     display: flex;
     height: 78vh;
+    background: linear-gradient(#ffffff, #3495cacb), url(../Assets/ifcon.jpg) no-repeat;
+    background-size: cover;
   }
   
   .form-login {
       font-family: Verdana;
     width: 300px;
     height: 350px;
-      background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 0px;
     margin: auto;

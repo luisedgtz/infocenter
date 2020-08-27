@@ -4,7 +4,6 @@
 @import "./css/spacing.css";
 
 .App {
-  background-color: var(--white);
   min-height: 89%;
   width: 100%;
   position: relative;
@@ -17,4 +16,20 @@
 
 .bold {
   font-weight: 600;
+}
+
+.wha-btn{
+  background-color: #00a724;
+  height: 90px;
+  padding: 10px;
+  border-radius: 100px;
+  position: fixed;
+  bottom: var(--medium-spacing);
+  right: var(--medium-spacing);
+  z-index: 2;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.205);
+}
+
+input{
+  outline: none;
 }

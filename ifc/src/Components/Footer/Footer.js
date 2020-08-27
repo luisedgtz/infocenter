@@ -12,18 +12,19 @@ export default (props)=>{
             <h4>Carlos Salazar 2420. Monterrey, N.L.</h4>
 
             <div className="Contact">
-                <img src={ConIcon}></img>
-                <div className="tel">
-                    <h5>CONMUTADOR</h5>
+                <h5>CONMUTADOR</h5>
+
+                <div className="tell">
+                    <img src={ConIcon}></img>
                     <h3>(81) 8379 4343</h3>
                 </div>
             </div>
 
             <div className="Contact">
-                <a href="https://wa.me/528118255896"><img src={WAIcon}></img></a>
-                <div className="tel">
-                    <h5>WHATSAPP</h5>
-                    <h3>(81) 8379 4343</h3>
+                <h5>WHATSAPP</h5>
+                <div className="tell">
+                    <a target="_blank" href="https://wa.me/528118255896"><img src={WAIcon}></img></a>
+                    <h3>(81) 1825 5896</h3>
                 </div>
             </div>
 

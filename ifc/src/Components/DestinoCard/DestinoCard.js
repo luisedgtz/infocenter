@@ -15,8 +15,8 @@ export default (props)=>{
                 <h2>{props.destino}</h2>
 
                 <div className="price">
-                    <h6>Desde: </h6>
-                    <h1>{props.precio}</h1>
+                    {/* <h6>Desde: </h6>
+                    <h1>{props.precio}</h1> */}
                 </div>             
                 </div>
                 </div> 

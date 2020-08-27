@@ -5,7 +5,7 @@ import style from "./style.css"
 export default (props)=>{
     return(
         <div className="form-container">
-            <form method="post" action="">
+            <form method="" action="">
                 <div className="FormTitle">
                     <h4 className="bold">Registro Agencia</h4>
                 </div>

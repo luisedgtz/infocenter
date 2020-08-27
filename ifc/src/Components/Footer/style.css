@@ -8,23 +8,29 @@
 
 .FooterContainer{
     background-color: #3495CA;
-    height: fit-content;
+    height: 120px;
     color: #ffffff;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .FooterContainer h4{
     width: 33%;
     font-weight: lighter;
     align-self: center;
+    margin-left: var(--small-spacing);
 }
 
 .Contact{
     justify-content: center;
     width: 33%;
-    display: flex;
     align-self: center;
+    text-align: center;
+}
+
+.tell{
+    display: flex;
+    justify-content: center;
 }
 
 .FooterContainer img, .FooterContainer a{

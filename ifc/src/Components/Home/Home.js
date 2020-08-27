@@ -17,10 +17,12 @@ export default (props)=>{
     return(
         <div className="carouselContainer">
             <Carousel></Carousel>
+
+            <h1>Conoce algunos de nuestros destinos</h1>
             <div className="cards">
                 <DestinoCard cardImg={card1} destino="Las Vegas" precio="$229"></DestinoCard>
                 <DestinoCard cardImg={card2} destino="Europa" precio="$229"></DestinoCard>
-                <DestinoCard cardImg={card3} destino="Nacionales" precio="$229"></DestinoCard>
+                <DestinoCard cardImg={card3} destino="Circuitos Nacionales" precio="$229"></DestinoCard>
                 <DestinoCard cardImg={card4} destino="Canadá" precio="$229"></DestinoCard>
                 <DestinoCard cardImg={card5} destino="Playas Nacionales" precio="$229"></DestinoCard>
                 <DestinoCard cardImg={card6} destino="Sudamérica" precio="$229"></DestinoCard>

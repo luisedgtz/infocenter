@@ -16,11 +16,13 @@ import Contact from './Components/Contact/Contact'
 import Destinations from './Components/Destinations/Destinations';
 import InfoDes from './Components/InfoDes/InfoDes';
 
+import WAIcon from '../src/Components/Assets/whatsapp.svg'
 
 function App() {
 return (
   <div className="App">
     <div className="PageWrap">
+
     <Router>
     <Header></Header>
       <Switch>
@@ -35,6 +37,9 @@ return (
         </div>
       </Switch>
     </Router>
+
+    <a target="_blank" href="https://wa.me/528118255896"><img src={WAIcon} className="wha-btn" alt=""/></a>
+
     </div>
     <Footer></Footer>
   </div>    
