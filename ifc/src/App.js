@@ -38,7 +38,7 @@ return (
       </Switch>
     </Router>
 
-    <a target="_blank" href="https://wa.me/528118255896"><img src={WAIcon} className="wha-btn" alt=""/></a>
+    <a target="_blank" href="https://wa.me/528130830440"><img src={WAIcon} className="wha-btn" alt=""/></a>
 
     </div>
     <Footer></Footer>

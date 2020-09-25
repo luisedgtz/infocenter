@@ -24,7 +24,7 @@ export default (props)=>{
                 <h5>WHATSAPP</h5>
                 <div className="tell">
                     <a target="_blank" href="https://wa.me/528118255896"><img src={WAIcon}></img></a>
-                    <h3>(81) 1825 5896</h3>
+                    <h3>(81) 3083 0440</h3>
                 </div>
             </div>
 

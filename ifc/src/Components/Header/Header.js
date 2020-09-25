@@ -46,8 +46,8 @@ export function Header(){
                 <img src={IG} alt=""></img></a></li>
             <li><a target="_blank" href="http://www.smarthotel.com.mx/">
                 <img src={SH} alt=""></img></a></li>
-            <li><a href="/ifconline">
-                <img src={IFCO} alt=""></img></a></li>
+            <li><NavLink exact to="/ifconline">
+                <img src={IFCO} alt=""></img></NavLink></li>
         </ul>
 
         </div>
